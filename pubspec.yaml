@@ -1,0 +1,16 @@
+name: easy_localization_ext
+description: Unofficial extensions to easy_localization package
+version: 0.1.0
+repository: https://github.com/alexeyinkin/flutter-easy-localization-ext
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=2.0.0'
+
+dependencies:
+  collection: ^1.16.0
+  easy_localization: ^3.0.1
+  easy_localization_loader: ^1.0.0
+
+dev_dependencies:
+  total_lints: ^2.18.0
