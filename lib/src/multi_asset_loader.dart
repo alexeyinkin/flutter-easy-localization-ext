@@ -9,7 +9,8 @@ import 'util.dart';
 class MultiAssetLoader extends AssetLoader {
   /// The loaders. Results from latter loaders get merged or overwrite
   /// the results from the earlier ones.
-  final List<dynamic> loaders; // https://github.com/aissat/easy_localization/issues/524
+  // https://github.com/aissat/easy_localization/issues/524
+  final List<dynamic> loaders;
 
   ///
   MultiAssetLoader(this.loaders);
